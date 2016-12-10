@@ -20,3 +20,5 @@ const Link = (props) => {
         </a>
     );
 };
+
+export default Link;

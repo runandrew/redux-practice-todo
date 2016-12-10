@@ -4,7 +4,7 @@ import React, { PropTypes } from 'react';
 
 const Todo = (props) => {
 
-    const { onClick, completed, text } = props;
+    const { onClick, completed, text} = props;
     return (
 
         <li

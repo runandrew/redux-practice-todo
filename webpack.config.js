@@ -1,5 +1,5 @@
 module.exports = {
-  entry: `${__dirname}/runner.js`,
+  entry: `${__dirname}/browser/react/index.js`,
   output: {
     path: `${__dirname}/`,
     filename: 'bundle.js'
@@ -10,7 +10,7 @@ module.exports = {
       exclude: /node_modules/,
       loader: 'babel-loader',
       query: {
-        presets: ['es2015']
+        presets: ['react', 'es2015']
       }
     }]
   },
